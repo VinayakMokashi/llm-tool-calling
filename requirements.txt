@@ -1,0 +1,11 @@
+# Scripts 01-03: LangChain tools and the Groq chat model
+langchain-core>=1.0,<2
+langchain-groq>=1.0,<2
+python-dotenv
+
+# Script 04: MCP server and client, and the model through Groq's OpenAI-compatible API
+fastmcp>=4.1,<5
+openai>=1.0
+requests
+# Time zone database for zoneinfo (Windows has none built in)
+tzdata

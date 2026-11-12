@@ -229,6 +229,8 @@ Answers vary a little from run to run; the tool calls are usually the same.
 
 [agentic-patterns-from-scratch](https://github.com/VinayakMokashi/agentic-patterns-from-scratch) builds the same tool-use and ReAct patterns without native tool calling: the tools are described in the prompt and the model's calls are parsed out of its text. Comparing the two shows what native tool calling takes off your hands.
 
+[llm-agent-memory](https://github.com/VinayakMokashi/llm-agent-memory) adds the memory these agents lack: keeping a long conversation within limits (trimming, deletion and summarization), and long-term memory that an agent reads and updates itself.
+
 ## License
 
 Released under the [MIT License](LICENSE).
